@@ -38,7 +38,9 @@ public class Main {
         System.out.println("Suma liczb parzystych z przedziału: "  + "<"+a+ ","+b+"> wynosi: " + suma);
 
 //
-        System.out.println("nowy kod ");
+        System.out.println("nowy kod:  ");
+        System.out.println("nowy kod 2:  ");
+
 
     }
 }
