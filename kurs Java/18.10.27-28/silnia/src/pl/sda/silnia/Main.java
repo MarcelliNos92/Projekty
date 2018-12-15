@@ -39,7 +39,7 @@ public class Main {
 
         System.out.println("git commit");
 
-        System.out.println("git commit 2");
+        System.out.println("git commit 3");
 
 
     }
