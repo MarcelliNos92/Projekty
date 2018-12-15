@@ -1,7 +1,5 @@
 package pl.sda.silnia;
 
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -39,7 +37,7 @@ public class Main {
         }
         System.out.println("Suma liczb parzystych z przedziału: "  + "<"+a+ ","+b+"> wynosi: " + suma);
 
-//
+        System.out.println("git commit");
 
 
     }
