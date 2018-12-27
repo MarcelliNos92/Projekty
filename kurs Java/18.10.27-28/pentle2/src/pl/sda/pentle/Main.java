@@ -2,9 +2,13 @@ package pl.sda.pentle;
 
 import java.util.Scanner;
 
+import static pl.sda.pentle.trójkątpascala.wydruk;
+
 public class Main {
 
     public static void main(String[] args) {
+
+        wydruk(7);
 
         // potęgowanie zad 8.
 
