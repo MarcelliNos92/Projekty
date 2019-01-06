@@ -29,7 +29,6 @@ public class MainTablice {
     public static void drukujTablice (int[] Tablica, int wielkoscTablicy){
         for(int i = 0; i < wielkoscTablicy; i++) {
             System.out.print(Tablica[i]);
-            System.out.print(" ");
 
         }
         System.out.println("");
