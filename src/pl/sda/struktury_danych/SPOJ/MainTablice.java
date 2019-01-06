@@ -17,7 +17,7 @@ public class MainTablice {
 
              for(int j = 0; j < wielkoscTablicy; j++){
 
-                 Tablica[j] = wejscie.nextInt();
+                 Tablica[j] = wejscie.nextInt(); //czy dane są pobierane poprawnie?
 
              }
              drukujTablice(Tablica, wielkoscTablicy);
