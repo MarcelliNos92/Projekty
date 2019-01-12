@@ -65,13 +65,13 @@ public class Silnia {
         return suma;
     }
 
-    public static void sumacyfrrekurencyjnie(int liczba){
-
+    public static int sumacyfrrekurencyjnie(int liczba){
+        int suma = 0;
         if (liczba > 0) {
             int cyfra = liczba % 10;
             System.out.println(cyfra);
-            sumacyfrrekurencyjnie(liczba / 10);
-
+            suma = sumacyfrrekurencyjnie(liczba / 10) + cyfra;
         }
+        return suma;
     }
 }

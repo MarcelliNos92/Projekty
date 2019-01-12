@@ -10,7 +10,7 @@ public class Main {
         System.out.println(s.ciagFib(5));
 //        s.binarnie(5);
 //        System.out.println(s.sumacyfriteracyjnie(123));
-        s.sumacyfrrekurencyjnie(1234);
+        System.out.println(s.sumacyfrrekurencyjnie(1234));
 
         int tab[] = {1,2,3,4,5,6,7,8};
         // 2 1 4 3
