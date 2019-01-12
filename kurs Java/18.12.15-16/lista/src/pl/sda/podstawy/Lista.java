@@ -12,24 +12,27 @@ public class Lista {
         this.rozmiar = rozmiar;
     }
 
-    public void dodajElement(int liczba) throws ArrayIndexOutOfBoundsException {
+    public static void dodajElement(int liczba)
+//            throws ArrayIndexOutOfBoundsException
+    {
 
-        this.liczby[this.rozmiar] = liczba;
+        liczby[rozmiar] = liczba;
+        rozmiar = rozmiar + 1;
 
-        if (isFull()) {
-            throw new ArrayIndexOutOfBoundsException("Is full");
-        }
+//        if (isFull()) {
+//            throw new ArrayIndexOutOfBoundsException("Is full");
+//        }
     }
 
     public boolean isFull() {
-        this.rozmiar = this.pojemnosc;
+        rozmiar = pojemnosc;
 
         return true;
     }
 
-    public int znajdz(int szukana) {
+    public static int znajdz(int szukana) {
         for (int i = 0; i < this.rozmiar; i++) {
-            if (this.liczby[i] == szukana) {
+            if (liczby[i] == szukana) {
 
                 return i;
             }
@@ -37,5 +40,38 @@ public class Lista {
         return -1;
     }
 
+    public static void pisz() {
+        System.out.println("Rozmiar: " + rozmiar);
+        System.out.println("Pojemność: " + pojemnosc);
+
+        for(int i = 0; i < rozmiar; i++){
+            System.out.println(liczby[i]);
+        }
+
+    }
+
+    public int[] getLiczby() {
+        return liczby;
+    }
+
+    public void setLiczby(int[] liczby) {
+        this.liczby = liczby;
+    }
+
+    public int getPojemnosc() {
+        return pojemnosc;
+    }
+
+    public void setPojemnosc(int pojemnosc) {
+        this.pojemnosc = pojemnosc;
+    }
+
+    public int getRozmiar() {
+        return rozmiar;
+    }
+
+    public void setRozmiar(int rozmiar) {
+        this.rozmiar = rozmiar;
+    }
 }
 
